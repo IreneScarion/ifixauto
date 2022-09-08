@@ -1,8 +1,7 @@
-import 'package:ifix_auto/ui/screens/homepage.dart';
-import 'package:animated_splash_screen/animated_splash_screen.dart';
-//import 'package:page_transition/page_transition.dart';
-
 import 'package:flutter/material.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+
+import 'package:ifixauto/ui/screens/homepage.dart';
 
 class Splash extends StatelessWidget {
   static String routeName = '/Spashscreen';
@@ -11,7 +10,8 @@ class Splash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
-      splash: const AssetImage('assets/images/logo.png'),
+      splash: 'assets/images/logo.png',
+      duration: 3000,
       nextScreen: const Homepage(),
     );
   }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ifix_auto/ui/screens/splash_screen.dart';
+import 'package:ifixauto/ui/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
